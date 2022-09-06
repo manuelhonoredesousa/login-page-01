@@ -1,0 +1,49 @@
+body {
+  background-image: url("https://wallpaperaccess.com/download/flat-design-1677778");
+  color: #fff;
+}
+
+.card h1 {
+  color: #0d014d;
+}
+
+label,
+input {
+  color: #000;
+}
+
+
+.card{
+    position: relative;
+}
+
+.card img{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.card .label-float input {
+  border-bottom: 2px solid #0d014d;
+}
+
+.card .label-float input:focus {
+  border-color: #231285;
+}
+
+input {
+  color: #fff;
+}
+
+input[type="submit"] {
+  color: #0d014d;
+  border: 1px solid #0d014d;
+}
+
+input[type="submit"]:hover {
+  background-color: #0d014d;
+}
+
+.label-float img:hover {
+  background-color: #871a71;
+}

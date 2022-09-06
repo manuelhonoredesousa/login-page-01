@@ -29,14 +29,12 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 30px;
   width: 360px;
-
   flex: 0.5 1 100px;
 }
 
-.card h1 {
+.card {
   text-align: center;
   margin-bottom: 20px;
-
 }
 
 .card .label-float input {
@@ -44,16 +42,12 @@ body {
   padding: 5px;
   display: inline-block;
   border: 0;
-  border-bottom: 2px solid #542269;
+  border-bottom: 2px solid #000;
   background-color: transparent;
   outline: 0;
   transition: 0.1s linear;
   min-width: 180px;
   font-size: 16px;
-}
-
-.card .label-float input:focus {
-  border-color: #871a71;
 }
 
 .label-float {
@@ -79,10 +73,10 @@ body {
 
 input[type="submit"] {
   background-color: transparent;
-  color: #542269;
+
   padding: 10px 20px;
   outline: none;
-  border: 1px solid #542269;
+
   border-radius: 5px;
   font-weight: bold;
   font-size: 12pt;
@@ -91,7 +85,6 @@ input[type="submit"] {
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 input[type="submit"]:hover {
-  background-color: #542269;
   color: #fff;
 }
 
@@ -100,30 +93,15 @@ input[type="submit"]:hover {
   justify-content: center;
 }
 
-.sep {
-  width: 60%;
-  margin: 10% auto;
-  border-top: 2px solid #542269;
-  padding-top: 10%;
-  text-align: center;
+.label-float img {
+  position: absolute;
+  width: 20px;
+  right: 0;
+  cursor: pointer;
 }
-
-.sep a{
-    color: #871a71;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.label-float img{
-position: absolute;
-width: 20px;
-right: 0;
-cursor: pointer;
-}
-.label-float img:hover{
-position: absolute;
-background-color: #871a71;
-width: 20px;
-right: 0;
-cursor: pointer;
+.label-float img:hover {
+  position: absolute;
+  width: 20px;
+  right: 0;
+  cursor: pointer;
 }

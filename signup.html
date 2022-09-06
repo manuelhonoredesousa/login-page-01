@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./src/css/signup.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="" method="post">
+          <div class="card">
+            <a href="./index.html">
+              <img src="./src/img/back-arrow.svg" alt="back" />
+            </a>
+            <h1>Sign up</h1>
+            <div class="label-float">
+              <input type="text" id="user" required />
+              <label for="user">Username</label>
+            </div>
+            <div class="label-float">
+              <input type="email" id="email" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="label-float">
+              <input type="number" id="number" required />
+              <label for="number">Phone Number</label>
+            </div>
+            <div class="label-float">
+              <input type="password" id="password" required />
+              <label for="password">Password</label>
+            </div>
+            <div class="label-float">
+              <input type="password" id="password_confirm" onkeyup="verificar()" required />
+              <label for="password_confirm">Confirm Password</label>
+            </div>
+
+            <div class="justify">
+              <input type="submit" value="Sign up" />
+            </div>
+            <div class="sep">
+   
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

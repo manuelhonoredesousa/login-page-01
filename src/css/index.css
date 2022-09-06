@@ -1,8 +1,49 @@
-body{
-    background-image: url("https://cdn.dribbble.com/users/1338391/screenshots/15318231/media/4c725fe4efbaa9d498f39f13600e396a.jpg") ;
+body {
+  background-image: url("https://cdn.dribbble.com/users/1338391/screenshots/15318231/media/4c725fe4efbaa9d498f39f13600e396a.jpg");
+}
+
+.card h1 {
+  color: #542269;
+}
+
+.sep a {
+  color: #871a71;
+}
+
+.sep {
+  border-top: 2px solid #542269;
+}
+
+.card .label-float input {
+  border-bottom: 2px solid #542269;
+}
+
+.card .label-float input {
+  border-bottom: 2px solid #542269;
+}
+
+.card .label-float input:focus {
+  border-color: #871a71;
+}
+
+input[type="submit"] {
+  color: #542269;
+  border: 1px solid #542269;
+}
+
+input[type="submit"]:hover {
+  background-color: #542269;
 }
 
 
-.card h1 {
-    color: #542269;
-  }
+.sep {
+  width: 60%;
+  margin: 10% auto;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.sep a {
+  font-weight: bold;
+  text-decoration: none;
+}
