@@ -63,7 +63,7 @@ body {
   position: absolute;
   top: 40%;
   transition: 0.3s ease-out;
-  color: #fff
+  color: #ccc
 }
 
 .card .label-float input:focus + label,
