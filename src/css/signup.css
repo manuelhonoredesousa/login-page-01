@@ -6,6 +6,9 @@ body {
 .card h1 {
   color: #0d014d;
 }
+.label-float label {
+  color: #fff
+}
 
 label,
 input {

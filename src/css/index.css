@@ -5,7 +5,9 @@ body {
 .card h1 {
   color: #542269;
 }
-
+.label-float label {
+  color: #000
+}
 .sep a {
   color: #871a71;
 }
